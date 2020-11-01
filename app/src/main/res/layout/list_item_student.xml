@@ -26,10 +26,22 @@
     <TextView
         android:id="@+id/student_pass"
         android:layout_width="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.25"
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:textAlignment="center"
         android:textSize="18dp"
+        android:textColor="#fff"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:background="@color/green"
         android:text="true" />
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="46dp"
+        android:layout_height="46dp"
+        android:background="@drawable/ic_delete" />
 </LinearLayout>

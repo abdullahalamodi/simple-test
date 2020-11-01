@@ -2,4 +2,6 @@
     <string name="app_name">simple test</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_clue">There are no Students</string>
+    <string name="new_student">new student</string>
 </resources>

@@ -7,14 +7,24 @@ class StudentListViewModel: ViewModel() {
 
     init {
 
-        for (i in 0 until 100) {
+        for (i in 0 until 6) {
             val student = Student();
             student.number = i + 1000;
             student.name = "student name  #$i";
-            student.pass = (i % 4 != 0);
+            student.pass = (i % 3 != 0);
             students += student;
         }
 
     }
+
     fun getStudents() = students;
+
+    fun addStudent(student: Student) {
+        students += student;
+    }
+
+    fun deleteStudent(position: Int) {
+        students.removeAt(position);
+    }
+
 }
